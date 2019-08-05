@@ -1,0 +1,4 @@
+Deleted from application.js
+
+//= require turbolinks
+//= require jquery_ujs
