@@ -16,6 +16,8 @@
       <%= content_tag :div, msg, class: "alert alert-#{name}" %>
     <% end -%>
 
+    <!-- header for sign out button? app/views/layouts/_header.html.erb -->
+    <%= render 'layouts/header' if user_signed_in? %>
     <%= yield %>
   </body>
 </html>

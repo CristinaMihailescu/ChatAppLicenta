@@ -1,0 +1,9 @@
+<div>
+  <span><%= current_user.email %></span>
+
+  <ul>
+    <li>
+      <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+    </li>
+  </ul>
+</div>
